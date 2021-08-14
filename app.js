@@ -10,6 +10,8 @@ var name = '';
 var seconds = 0;
 
 
+
+
 app.post('/', function (req, res) {
 
     name = req.query.Name
@@ -70,9 +72,9 @@ app.get('/load', function (req, res) {
 
 
 
-const host = '0.0.0.0';
+
 const port = process.env.PORT || 5000;
 
-app.listen(port, host, function() {
+app.listen(port, function() {
     console.log("CA3 listening on Port 5000");
   });

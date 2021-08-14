@@ -1,16 +1,24 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "heroku": "^7.2.0"
   },
   "name": "backend",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanHaoDong/CA3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HanHaoDong/CA3/issues"
+  },
+  "homepage": "https://github.com/HanHaoDong/CA3#readme",
   "description": ""
 }
