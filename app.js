@@ -68,7 +68,11 @@ app.get('/load', function (req, res) {
 
 
 
-// start server on port 8000
-app.listen(8000, function () {
-    console.log('CA3 listening on Port 8000');
-});
+
+
+const host = '0.0.0.0';
+const port = process.env.PORT || 5000;
+
+app.listen(port, host, function() {
+    console.log("CA3 listening on Port 5000");
+  });
